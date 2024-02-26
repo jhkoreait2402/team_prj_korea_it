@@ -18,7 +18,7 @@ public class MemberController {
 	
 	MemberDAO memberDAO;
 
-	//�럹�씠吏� �씠�룞
+	//페이지 이동
 	@RequestMapping(value="member", method = RequestMethod.GET)
 	public String member() {
 		return Common.Member.VIEW_PATH + "login.jsp";
